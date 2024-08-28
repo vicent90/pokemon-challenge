@@ -8,6 +8,13 @@ This repository contains both the frontend and backend for the Pokémon Battle A
 - **/pokemon-app**: React application built with Vite and Material UI.
 - **/pokemon-back**: NestJS application using TypeORM and SQLite.
 
+## Prerequisites
+
+Before you begin, make sure you have the following software installed on your machine:
+
+- **Node.js** (version 18.x or higher)
+
+
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -34,7 +41,7 @@ Navigate to the backend directory, install the dependencies, run the migrations,
 ```bash
 cd pokemon-back
 npm install
-npm run migrations:run
+npm run migration:run
 npm run start:dev
 ```
 

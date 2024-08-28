@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Pokemon } from '../interfaces/pokemon.interfaces';
 import { BattleResult } from '../interfaces/battle.interface';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:300';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
 
 export const getPokemons = async (): Promise<Pokemon[]> => {
   const response = await axios.get<Pokemon[]>(`${API_URL}/pokemon`);
